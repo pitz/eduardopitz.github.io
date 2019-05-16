@@ -1,30 +1,30 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
 }
 
 @media (min-width: 576px) {
 	html {
-		font-size: 14px;
+		font-size: 12px;
 	}
 }
 
 @media (min-width: 768px) {
 	html {
-		font-size: 16px;
+		font-size: 12px;
 	}
 }
 
 @media (min-width: 992px) {
 	html {
-		font-size: 18px;
+		font-size: 12px;
 	}
 }
 
 @media (min-width: 1200px) {
 	html {
-		font-size: 20px;
+		font-size: 12px;
 	}
 }
 
@@ -44,8 +44,8 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 3.0em;
 	font-weight: 600;
 }
 
