@@ -45,13 +45,19 @@ main {
 
 main > .intro {
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 3.0em;
+	font-size: 2.4em;
 	font-weight: 600;
 }
 
+main > .me {
+	font-size: 0.8rem;
+	margin: 0.8rem 0;
+	font-weight: 100;
+}
+
 main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
+	font-size: 1.2rem;
+	margin: 1.2rem 0;
 	font-weight: 100;
 }
 
