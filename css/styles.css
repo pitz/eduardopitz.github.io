@@ -45,8 +45,9 @@ main {
 
 main > .intro {
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 2.4em;
+	font-size: 2.0em;
 	font-weight: 600;
+	margin-bottom: 40px;
 }
 
 main > .me {
@@ -56,12 +57,19 @@ main > .me {
 }
 
 main > .tagline {
-	font-size: 1.2rem;
+	font-size: 12.4px;
 	margin: 1.2rem 0;
-	font-weight: 100;
+	font-weight: 120;
+	width: 800px; /* Valor da Largura do elemento */
+}
+
+#externa {
+	display: flex;
+	justify-content: center;
 }
 
 .icons-social i {
+	margin-top: 25px;
 	padding: 10px;
 }
 
