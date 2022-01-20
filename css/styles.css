@@ -82,3 +82,69 @@ main > .tagline {
     width: 2.65rem;
     height: 2.65rem;
 }
+
+
+.conteudo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    width: 600px;
+    height: 300px;
+    align-self: center;
+    padding-top: 280px;
+}
+
+.box {
+    align-self: stretch;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px; 
+    margin: 0.8rem 0;
+    font-weight: 100; 
+    font-size: 40px;
+}
+
+.center-icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 1200px) {
+    .icones {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (min-width: 300px) {
+    .icones {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 200px) {
+    .icones {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+.icones a {
+	color: #1C1E26;
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+.icones a svg path {
+	fill: #ffffff;
+}
